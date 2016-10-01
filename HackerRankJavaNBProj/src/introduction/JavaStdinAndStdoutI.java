@@ -1,14 +1,25 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package introduction;
+package introduction; 
+//import the scanner
+import java.util.Scanner; 
 
-/**
- *
- * @author Dominic
- */
-public class JavaStdinAndStdoutI {
+public class JavaStdinAndStdoutI{
     
+    public static void main(String[] args){
+     //local variables
+        int a,b,c;
+        
+        //Create object out of the Scanner
+        Scanner scan = new Scanner(System.in);
+        
+        //accept values for all three ints 
+        a = scan.nextInt();
+        b = scan.nextInt();
+        c = scan.nextInt();
+        
+        //Output all three on seperate lines using printf instead of println
+        System.out.printf("\n%d\n%d\n%d\n", a, b, c );
+        
+        
+        
+    }
 }
