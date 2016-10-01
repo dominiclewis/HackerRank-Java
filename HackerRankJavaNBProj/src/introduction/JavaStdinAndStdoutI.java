@@ -17,7 +17,7 @@ public class JavaStdinAndStdoutI{
         c = scan.nextInt();
         
         //Output all three on seperate lines using printf instead of println
-        System.out.printf("\n%d\n%d\n%d\n", a, b, c );
+        System.out.printf("%d\n%d\n%d\n", a, b, c );
         
         
         
