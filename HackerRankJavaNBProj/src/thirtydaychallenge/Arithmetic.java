@@ -38,6 +38,6 @@ public class Arithmetic {
       
         // Print your result
         
-        System.out.println("The total meal cost is " + totalCost + " dollars");
+        System.out.println("The total meal cost is " + totalCost + " dollars.");
     }
 }
